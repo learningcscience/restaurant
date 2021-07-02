@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> The Resturant : About Us  </title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="images/icon.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+  .active{
+    background: #FF5833;
+  }
+</style>
+<body>
+
+	<div class="navbar" id="menu">
+		<a href="index.html"> <i class="fa fa-home" aria-hidden="true"></i>  &nbsp Home </a>
+		<a href="bed-room.html"> <i class="fa fa-bed" aria-hidden="true"></i>  &nbsp  Bed Rooms </a>
+		<a href="eat.html"> <i class="fa fa-cutlery" aria-hidden="true"></i> &nbsp Eatery </a>
+		<a href="contact.html"> <i class="fa fa-phone-square" aria-hidden="true"></i>  &nbsp Contact Us </a>
+		<a href="about.html" class="active"> <i class="fa fa-user-plus" aria-hidden="true"></i> &nbsp  About Us </a>
+  
+      <a href="javascript:void(0);" class="icon" onclick="handleClick()">
+        <i class="fa fa-bars"></i>
+      </a>
+	</div>
+	
+	<div class="bg-container3">
+			
+		<div class="inner-part"><br><br>
+				<h1 class="heading"> About Us</h1>
+				<P class="topic"> About our resturant  </p><br>
+
+          <div clas="finder">
+               <input type="search" placeholder="Search .."> <button class="find"><i class="fa fa-search"></i></button>
+          </div>
+
+
+		</div>
+  </div>
+  
+
+  <div class="row">
+      <p class="about-text"> Hello everyone . Welcome to our Resturant website . <br>
+                            We provide the services like shelter and eating.You can<br>
+                            order anytime . It is open 24 hours . We serve the people<br>
+                            to better living and eating </p>
+
+  </div>
+
+  <div class="row service">
+    <h1 class="sewa"> Our services </h1><br>
+    <div class="points">
+      <ul>
+        <li><p class="ser-text"> We serve the people for better living & eating </p></li><br>
+        <li><p class="ser-text"> We have swimming pool for provide consumer more entertainment </p></li><br>
+        <li><p class="ser-text"> We serve foods in your room which you have booked </p></li><br>
+        <li><p class="ser-text"> We take care of your goods</p></li><br>
+        <li><p class="ser-text"> We have well trained waiters etc.</p></li><br>
+  
+    </ul>
+    </div>
+  </div>
+
+
+    <div class="footer">
+      <div class="row">
+      <div class="links col-3">
+          <h4> Links </h4><br><br>
+              <a href="index.html"> Home </a><br><br>
+              <a href="bed-room.html"> Bed Rooms </a><br><br>
+              <a href="eat.html"> Eatery </a><br><br>
+              <a href="contact.html"> Contact Us </a><br><br>
+              <a href="about.html"> About Us </a><br><br>
+      </div>
+
+      <div class="follow col-3">
+          <h4> Follow Us </h4><br><br>
+            <i class="fa fa-instagram"></i><br><br>
+            <i class="fa fa-twitter"></i><br><br>
+            <i class="fa fa-linkedin"></i><br><br> 
+      </div>
+
+
+      <div class="sub col-3">
+          <h4> Subscribe Us </h4><br><br>
+          <input type="email" placeholder="Enter email" name="email"><br><br>
+          <button class="support"> Subscribe </button>
+      </div>
+
+    <div class="about col-3">
+        <h4> About Us </h4><br><br>
+        <p> We serve the people to better living & better eating </p>
+    </div><br>
+
+    </div>
+        <p class="right"> &copy; All Right Reserved The Resturant 2021 </p><br>
+    <div>
+
+
+    <script>
+
+
+      function handleClick(){
+
+        let nav = document.getElementById("menu");
+
+
+        if(nav.className === "navbar"){
+          
+          nav.className += " clicked";
+
+
+        } 
+        else{
+          nav.className = "navbar";
+
+          
+        }
+
+        
+
+      }
+
+    </script>
+</body>
+</html>

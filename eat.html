@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> The Resturant : Eatery   </title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="images/icon.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+  .active{
+    background: #FF5833;
+  }
+</style>
+
+
+<body>
+
+	<div class="navbar" id="menu">
+		<a href="index.html"> <i class="fa fa-home" aria-hidden="true"></i>  &nbsp Home </a>
+		<a href="bed-room.html"> <i class="fa fa-bed" aria-hidden="true"></i>  &nbsp  Bed Rooms </a>
+		<a href="eat.html" class="active"> <i class="fa fa-cutlery" aria-hidden="true"></i> &nbsp Eatery </a>
+		<a href="contact.html"> <i class="fa fa-phone-square" aria-hidden="true"></i>  &nbsp Contact Us </a>
+		<a href="about.html"> <i class="fa fa-user-plus" aria-hidden="true"></i> &nbsp  About Us </a>
+  
+      <a href="javascript:void(0);" class="icon" onclick="handleClick()">
+        <i class="fa fa-bars"></i>
+      </a>
+	</div>
+	
+	<div class="bg-container2">
+			
+		<div class="inner-part">
+				<h1 class="heading"> Welcome to Eatery  </h1>
+				<P class="topic"> Eat what you like </p><br>
+          <div clas="finder">
+               <input type="search" placeholder="What you you need ? .."> <button class="find"><i class="fa fa-search"></i></button>
+          </div>
+
+		</div>
+  </div>
+  
+
+  <br>
+
+
+
+
+
+<div class="row">
+  <div class="column col-4 col-s-4 main-div">
+    <div class="eat">
+
+      <img src="https://images.unsplash.com/photo-1517644535125-4524aeea6fff?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" width="100%"><br><br><p> Tea & bread</p>
+
+      <div class="rating">
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+      </div><br>
+            <div class="page-eat">
+                  <a href="eat-book.html"><button> Book </button><a>
+           </div>
+           <br>
+    </div>
+
+  </div>
+
+
+
+
+
+    <div class="column col-4 col-s-4 main-div">
+    <div class="eat">
+      <div class="enter">
+      <img src="https://images.unsplash.com/photo-1551782450-a2132b4ba21d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80" width="100%"><br><br><p> The Burger </p>
+    </div>
+
+      <div class="rating">
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+      </div><br>
+            <div class="page-eat">
+                  <a href="eat-book.html"><button> Book </button><a>
+           </div>
+           <br>
+    </div>
+
+  </div>
+
+
+
+     <div class="column col-4 col-s-4 main-div">
+    <div class="eat">
+
+      <img src="https://images.unsplash.com/photo-1540100716001-4b432820e37f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=786&q=80" width="100%"><br><br><p> Fried rice</p>
+
+      <div class="rating">
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+      </div><br>
+            <div class="page-eat">
+                  <a href="eat-book.html"><button> Book </button><a>
+           </div>
+           <br>
+    </div>
+
+  </div>
+
+  
+</div>
+<br>
+<br>
+
+
+
+
+
+<div class="row">
+  <div class="column col-4 col-s-4 main-div">
+    <div class="eat">
+
+      <img src="https://images.unsplash.com/photo-1516831083365-0efd347838f9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" width="100%"><br><br><p> The egg & milk tea </p>
+
+      <div class="rating">
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+      </div><br>
+            <div class="page-eat">
+                  <a href="eat-book.html"><button> Book </button><a>
+           </div>
+           <br>
+    </div>
+
+  </div>
+
+
+
+
+
+    <div class="column col-4 col-s-4 main-div">
+    <div class="eat">
+      <div class="enter">
+      <img src="https://images.unsplash.com/photo-1494597706938-de2cd7341979?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=780&q=80" width="100%"><br><br><p> The omelette</p>
+    </div>
+
+      <div class="rating">
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+      </div><br>
+            <div class="page-eat">
+                  <a href="eat-book.html"><button> Book </button><a>
+           </div>
+           <br>
+    </div>
+
+  </div>
+
+
+
+     <div class="column col-4 col-s-4 main-div">
+    <div class="eat">
+
+      <img src="https://images.unsplash.com/photo-1536598671674-27bfb96e07ff?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80" width="100%"><br><br><p> Bread & Jam  </p>
+
+      <div class="rating">
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+      </div><br>
+            <div class="page-eat">
+                  <a href="eat-book.html"><button> Book </button><a>
+           </div>
+           <br>
+    </div>
+
+  </div>
+
+  
+</div>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="column col-4 col-s-4 main-div">
+    <div class="eat">
+
+      <img src="https://images.unsplash.com/photo-1532550907401-a500c9a57435?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" width="100%"><br><br><p> The lemon chicken </p>
+
+      <div class="rating">
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+      </div><br>
+            <div class="page-eat">
+                  <a href="eat-book.html"><button> Book </button><a>
+           </div>
+           <br>
+    </div>
+
+  </div>
+
+
+
+
+
+    <div class="column col-4 col-s-4 main-div">
+    <div class="eat">
+      <div class="enter">
+      <img src="https://images.unsplash.com/photo-1517574776333-573dcd458764?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=739&q=80" width="100%"><br><br><p> Avocado tartine </p>
+    </div>
+
+      <div class="rating">
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+      </div><br>
+            <div class="page-eat">
+                  <a href="eat-book.html"><button> Book </button><a>
+           </div>
+           <br>
+    </div>
+
+  </div>
+
+
+
+     <div class="column col-4 col-s-4 main-div">
+    <div class="eat">
+
+      <img src="https://images.unsplash.com/photo-1610137312679-8de3a836b455?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=805&q=80" width="100%"><br><br><p> The black tea  </p>
+
+      <div class="rating">
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+      </div><br>
+            <div class="page-eat">
+                  <a href="eat-book.html"><button> Book </button><a>
+           </div>
+           <br>
+    </div>
+
+  </div>
+
+  
+</div>
+
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="column col-4 col-s-4 main-div">
+    <div class="eat">
+
+      <img src="https://images.unsplash.com/photo-1564834744159-ff0ea41ba4b9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" width="100%"><br><br><p> The rice set </p>
+
+      <div class="rating">
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+      </div><br>
+            <div class="page-eat">
+                  <a href="eat-book.html"><button> Book </button><a>
+           </div>
+           <br>
+    </div>
+
+  </div>
+
+
+
+
+
+    <div class="column col-4 col-s-4 main-div">
+    <div class="eat">
+      <div class="enter">
+      <img src="https://images.unsplash.com/photo-1564836235910-c3055ca0f912?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80" width="100%"><br><br><p> The mutton & rice</p>
+    </div>
+
+      <div class="rating">
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+      </div><br>
+            <div class="page-eat">
+                  <a href="eat-book.html"><button> Book </button><a>
+           </div>
+           <br>
+    </div>
+
+  </div>
+
+
+
+     <div class="column col-4 col-s-4 main-div">
+    <div class="eat">
+
+      <img src="https://images.unsplash.com/photo-1599043513900-ed6fe01d3833?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" width="100%"><br><br><p> Chicken rice   </p>
+
+      <div class="rating">
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+      </div><br>
+            <div class="page-eat">
+                  <a href="eat-book.html"><button> Book </button><a>
+           </div>
+           <br>
+    </div>
+
+  </div>
+
+  
+</div>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="column col-4 col-s-4 main-div">
+    <div class="eat">
+
+      <img src="https://images.unsplash.com/photo-1529690678884-189e81f34ef6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" width="100%"><br><br><p> Hong Kong Beef Brisket Rice Noodles </p>
+
+      <div class="rating">
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+      </div><br>
+            <div class="page-eat">
+                  <a href="eat-book.html"><button> Book </button><a>
+           </div>
+           <br>
+    </div>
+
+  </div>
+
+
+
+
+
+    <div class="column col-4 col-s-4 main-div">
+    <div class="eat">
+      <div class="enter">
+      <img src="https://images.unsplash.com/photo-1551881192-002e02ad3d87?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80" width="100%"><br><br><p> Paneer </p>
+    </div>
+
+      <div class="rating">
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+      </div><br>
+            <div class="page-eat">
+                  <a href="eat-book.html"><button> Book </button><a>
+           </div>
+           <br>
+    </div>
+
+  </div>
+
+
+
+     <div class="column col-4 col-s-4 main-div">
+    <div class="eat">
+
+      <img src="https://images.unsplash.com/photo-1617196035154-1e7e6e28b0db?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=800" width="100%"><br><br><p> Japanile ( Restaurant )    </p>
+
+      <div class="rating">
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+      </div><br>
+            <div class="page-eat">
+                  <a href="eat-book.html"><button> Book </button><a>
+           </div>
+           <br>
+    </div>
+
+  </div>
+
+  
+</div>
+
+
+
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="column col-4 col-s-4 main-div">
+    <div class="eat">
+
+      <img src="https://images.pexels.com/photos/3209100/pexels-photo-3209100.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" width="100%"><br><br><p> Chow mein </p>
+
+      <div class="rating">
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+      </div><br>
+            <div class="page-eat">
+                  <a href="eat-book.html"><button> Book </button><a>
+           </div>
+           <br>
+    </div>
+
+  </div>
+
+
+
+
+
+    <div class="column col-4 col-s-4 main-div">
+    <div class="eat">
+      <div class="enter">
+      <img src="https://images.unsplash.com/photo-1513639776629-7b61b0ac49cb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=747&q=80" width="100%"><br><br><p> The KFC </p>
+    </div>
+
+      <div class="rating">
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+      </div><br>
+            <div class="page-eat">
+                  <a href="eat-book.html"><button> Book </button><a>
+           </div>
+           <br>
+    </div>
+
+  </div>
+
+
+
+     <div class="column col-4 col-s-4 main-div">
+    <div class="eat">
+
+      <img src="https://images.unsplash.com/photo-1524859880053-f595797051c2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" width="100%"><br><br><p> Green veggies   </p>
+
+      <div class="rating">
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+      </div><br>
+            <div class="page-eat">
+                  <a href="eat-book.html"><button> Book </button><a>
+           </div>
+           <br>
+    </div>
+
+  </div>
+
+  
+</div>
+
+
+
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="column col-4 col-s-4 main-div">
+    <div class="eat">
+
+      <img src="https://images.unsplash.com/photo-1598419161288-9f2f26c85590?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=776&q=80" width="100%"><br><br><p> Fanta </p>
+
+      <div class="rating">
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+      </div><br>
+            <div class="page-eat">
+                  <a href="eat-book.html"><button> Book </button><a>
+           </div>
+           <br>
+    </div>
+
+  </div>
+
+
+
+
+
+    <div class="column col-4 col-s-4 main-div">
+    <div class="eat">
+      <div class="enter">
+      <img src="https://images.unsplash.com/photo-1567128076563-5f86dbb5b573?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80" width="100%"><br><br><p>  Sprite</p>
+    </div>
+
+      <div class="rating">
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+      </div><br>
+            <div class="page-eat">
+                  <a href="eat-book.html"><button> Book </button><a>
+           </div>
+           <br>
+    </div>
+
+  </div>
+
+
+
+     <div class="column col-4 col-s-4 main-div">
+    <div class="eat">
+
+      <img src="https://images.unsplash.com/photo-1607446045918-f29f088986a7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80" width="100%"><br><br><p> Lemon juice</p>
+
+      <div class="rating">
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+      </div><br>
+            <div class="page-eat">
+                  <a href="eat-book.html"><button> Book </button><a>
+           </div>
+           <br>
+    </div>
+
+  </div>
+
+  
+</div>
+
+
+
+<br>
+<br>
+
+
+
+
+
+    <div class="footer">
+      <div class="row">
+      <div class="links col-3">
+          <h4> Links </h4><br><br>
+              <a href="index.html"> Home </a><br><br>
+              <a href="brd-room.html"> Bed Rooms </a><br><br>
+              <a href="eat.html"> Eatery </a><br><br>
+              <a href="contact.html"> Contact Us </a><br><br>
+              <a href="about.html"> About Us </a><br><br>
+      </div>
+
+      <div class="follow col-3">
+          <h4> Follow Us </h4><br><br>
+            <i class="fa fa-instagram"></i><br><br>
+            <i class="fa fa-twitter"></i><br><br>
+            <i class="fa fa-linkedin"></i><br><br> 
+      </div>
+
+
+      <div class="sub col-3">
+          <h4> Subscribe Us </h4><br><br>
+          <input type="email" placeholder="Enter email" name="email"><br><br>
+          <button class="support"> Subscribe </button>
+      </div>
+
+    <div class="about col-3">
+        <h4> About Us </h4><br><br>
+        <p> We serve the people to better living & better eating </p>
+    </div><br>
+
+    </div>
+        <p class="right"> &copy; All Right Reserved The Resturant 2021 </p><br>
+    <div>
+
+
+    <script>
+
+
+      function handleClick(){
+
+        let nav = document.getElementById("menu");
+
+
+        if(nav.className === "navbar"){
+          
+          nav.className += " clicked";
+
+
+        } 
+        else{
+          nav.className = "navbar";
+
+          
+        }
+
+        
+
+      }
+
+    </script>
+</body>
+</html>

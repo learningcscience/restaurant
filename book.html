@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> The Resturant : Boooking  </title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="images/icon.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+	<div class="navbar" id="menu">
+		<a href="index.html"> <i class="fa fa-home" aria-hidden="true"></i>  &nbsp Home </a>
+		<a href="bed-room.html"> <i class="fa fa-bed" aria-hidden="true"></i>  &nbsp  Bed Rooms </a>
+		<a href="eat.html"> <i class="fa fa-cutlery" aria-hidden="true"></i> &nbsp Eatery </a>
+		<a href="contact.html"> <i class="fa fa-phone-square" aria-hidden="true"></i>  &nbsp Contact Us </a>
+		<a href="about.html"> <i class="fa fa-user-plus" aria-hidden="true"></i> &nbsp  About Us </a>
+  
+      <a href="javascript:void(0);" class="icon" onclick="handleClick()">
+        <i class="fa fa-bars"></i>
+      </a>
+	</div>
+	
+	<div class="bg-container1">
+			
+		<div class="inner-part">
+				<h1 class="heading"> Book your choice  </h1>
+				<P class="topic">Take your seat  </p><br>
+
+         			 <div clas="finder">
+         			  <input type="search" placeholder=" Search .."> <button class="find"><i class="fa fa-search"></i></button>
+              </div>
+		</div>
+  </div>
+  
+
+  <div class="row">
+    <div class="form"><br><br>
+    <label> Username </label><br><br>
+      <input type="text" placeholder="Enter Username"><br><br>
+
+    <label> Email Address </label><br><br>
+      <input type="email" placeholder="Enter email" name="email"><br><br>
+
+      <label> No of people </label><br><br>
+        <input type="number" placeholder="number of people"><br><br>
+        <div class="center">
+          <button> Book now </button>
+          </div>
+          <br><br>
+    </div>
+  </div>
+
+    <div class="footer">
+      <div class="row">
+      <div class="links col-3">
+          <h4> Links </h4><br><br>
+              <a href="index.html"> Home </a><br><br>
+              <a href="bed-room.html"> Bed Rooms </a><br><br>
+              <a href="eat.html"> Eatery </a><br><br>
+              <a href="contact.html"> Contact Us </a><br><br>
+              <a href="about.html"> About Us </a><br><br>
+      </div>
+
+      <div class="follow col-3">
+          <h4> Follow Us </h4><br><br>
+            <i class="fa fa-instagram"></i><br><br>
+            <i class="fa fa-twitter"></i><br><br>
+            <i class="fa fa-linkedin"></i><br><br> 
+      </div>
+
+
+      <div class="sub col-3">
+          <h4> Subscribe Us </h4><br><br>
+          <input type="email" placeholder="Enter email" name="email"><br><br>
+          <button class="support"> Subscribe </button>
+      </div>
+
+    <div class="about col-3">
+        <h4> About Us </h4><br><br>
+        <p> We serve the people to better living & better eating </p>
+    </div><br>
+
+    </div>
+        <p class="right"> &copy; All Right Reserved The Resturant 2021 </p><br>
+    <div>
+
+
+    <script>
+
+
+      function handleClick(){
+
+        let nav = document.getElementById("menu");
+
+
+        if(nav.className === "navbar"){
+          
+          nav.className += " clicked";
+
+
+        } 
+        else{
+          nav.className = "navbar";
+
+          
+        }
+
+        
+
+      }
+
+    </script>
+</body>
+</html>
